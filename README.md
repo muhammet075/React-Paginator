@@ -3,6 +3,11 @@
 Voor dit project heb ik in React een paginator gebouwd met data uit een api.
 <br/><br/>
 
+## Screenshot
+
+<img src="https://i.ibb.co/Z6qFc8f/paginatorscreen.png" alt="screen" width="300px">
+<br/><br/>
+
 ## Dataset
 
 De data die ik in de pagnator heb gebruikt is afkomstig van<br/> https://jsonplaceholder.typicode.com/
