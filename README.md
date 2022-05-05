@@ -1,16 +1,14 @@
-## uncinc-react-assessment
+# uncinc-react-assessment
 
 Voor dit project heb ik in React een paginator gebouwd met data uit een api.
-<br/>
+<br/><br/>
 
 ## Dataset
 
-De data die ik in de pagnator heb gebruikt is afkomstig van<br/>
+De data die ik in de pagnator heb gebruikt is afkomstig van<br/> https://jsonplaceholder.typicode.com/
+<br/><br/>
 
-- "https://jsonplaceholder.typicode.com/posts"
-  <br/><br/>
-
-## Installeren ⚙️
+## Installeren
 
 1. Clone de repository<br/>
 
