@@ -5,7 +5,7 @@ Voor dit project heb ik in React een paginator gebouwd met data uit een api.
 
 ## Screenshot
 
-<img src="https://i.ibb.co/Z6qFc8f/paginatorscreen.png" alt="screen" width="300px">
+<img src="https://i.ibb.co/Z6qFc8f/paginatorscreen.png" alt="screen" width="500px">
 <br/><br/>
 
 ## Dataset
