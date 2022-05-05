@@ -1,6 +1,6 @@
 # uncinc-react-assessment
 
-Voor dit project heb ik in React een paginator gebouwd met data uit een api.
+Voor dit project heb ik in React een paginator gebouwd met data uit een api. Ik heb de variabels currentPage en itemsPage gemaakt. Currentpage is voor de huidige pagina en daar heb ik useState[1] aangevoegd. Bij de itemsPage heb ik useState[10], dan verschijnen per pagina 10 objecten. Om de objecten te verschijnen, dus 10 per pagina heb ik de variabels indexLastItem en indefFirstItem. Die 2 slice ik dan en daarvan maak ik een nieuwe variable van genaamd items. Vervolgens worden die items gemapt en weergegeven.
 <br/><br/>
 
 ## Screenshot

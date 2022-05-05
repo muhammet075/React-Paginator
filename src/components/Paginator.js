@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const renderItems = (data) => {
   return (
-    <ul className="todoLijst">
+    <ul className='todoLijst'>
       {data.map((posts, index) => {
         return <li>{posts.title}</li>;
       })}
@@ -29,7 +29,7 @@ function Paginator() {
   const items = data.slice(indefFirstItem, indexLastItem);
   const renderPageNumbers = pages.map((number) => {
     return (
-      <li className="paginatorButtons" id={number} onClick={handleClick}>
+      <li className='paginatorButtons' id={number} onClick={handleClick}>
         {number}
       </li>
     );
@@ -47,11 +47,11 @@ function Paginator() {
 
   return (
     <>
-      <div className="paginator">
+      <div className='paginator'>
         <h1>lijst voor uncinc</h1>
         {renderItems(items)}
         <p>Pagina: {currentPage}</p>
-        <ul className="paginanummers">{renderPageNumbers}</ul>
+        <ul className='paginanummers'>{renderPageNumbers}</ul>
       </div>
     </>
   );
