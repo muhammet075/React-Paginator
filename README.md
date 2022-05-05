@@ -7,10 +7,10 @@ Voor dit project heb ik in React een paginator gebouwd met data uit een api.
 
 De data die ik in de pagnator heb gebruikt is afkomstig van<br/>
 
-- "https://jsonplaceholder.typicode.com/posts"
+- https://jsonplaceholder.typicode.com/posts
   <br/><br/>
 
-## Installeren ⚙️
+## Installeren
 
 1. Clone de repository<br/>
 
