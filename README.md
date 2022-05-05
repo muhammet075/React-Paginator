@@ -28,7 +28,7 @@ De data die ik in de pagnator heb gebruikt is afkomstig van<br/> https://jsonpla
   npm install
 ```
 
-4. Start de app<br/>
+4. Start de app op port 3000<br/>
 
 ```
   npm start
