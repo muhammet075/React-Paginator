@@ -1,4 +1,4 @@
-##uncinc-react-assessment
+# uncinc-react-assessment
 
 Voor dit project heb ik in React een paginator gebouwd met data uit een api.
 <br/>
@@ -6,7 +6,7 @@ Voor dit project heb ik in React een paginator gebouwd met data uit een api.
 ## Dataset
 
 De data die ik in de pagnator heb gebruikt is afkomstig van https://jsonplaceholder.typicode.com/posts
-><br/>
+<br/>
 
 ## Installeren
 
