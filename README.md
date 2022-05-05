@@ -5,7 +5,7 @@ Voor dit project heb ik in React een paginator gebouwd met data uit een api.
 
 ## Dataset
 
-De data die ik in de pagnator heb gebruikt is afkomstig van<br/> https://jsonplaceholder.typicode.com/posts
+De data die ik in de pagnator heb gebruikt is afkomstig van<br/> https://jsonplaceholder.typicode.com/
 <br/><br/>
 
 ## Installeren
