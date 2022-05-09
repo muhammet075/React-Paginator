@@ -38,16 +38,16 @@ function Paginator() {
   const handleNextBtn = () => {
     if (currentPage < 10) {
       setcurrentPage(currentPage + 1);
-    } else {
-      setcurrentPage(currentPage == 1);
+    } else if (currentPage === null) {
+      setcurrentPage(currentPage == 10);
     }
   };
 
   const handlePreviousBtn = () => {
-    if (currentPage === 1) {
-      setcurrentPage(currentPage === 10);
-    } else {
+    if (currentPage > 1) {
       setcurrentPage(currentPage - 1);
+    } else if (currentPage === null) {
+      setcurrentPage(currentPage == 1);
     }
   };
 
@@ -68,7 +68,11 @@ function Paginator() {
         {renderItems(items)}
         <ul className='navigator'>
           <li>
-            <button className='previousBtn' onClick={handlePreviousBtn}>
+            <button
+              className='previousBtn'
+              onClick={handlePreviousBtn}
+              disabled={currentPage == 1}
+            >
               Previous
             </button>
           </li>
@@ -77,7 +81,11 @@ function Paginator() {
             <p>Pagina: {currentPage}</p>
           </li>
           <li>
-            <button className='nextBtn' onClick={handleNextBtn}>
+            <button
+              className='nextBtn'
+              onClick={handleNextBtn}
+              disabled={currentPage == 10}
+            >
               Next
             </button>
           </li>

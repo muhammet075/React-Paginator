@@ -6,7 +6,7 @@
 
 .paginator {
   position: relative;
-  height: 600px;
+  height: 700px;
   width: 600px;
   margin: 50px auto;
   padding: 10px;
@@ -60,6 +60,9 @@
   display: flex;
   justify-content: center;
   list-style: none;
+  position: absolute;
+  width: 100%;
+  bottom: 100px;
 }
 
 .navigator li {
