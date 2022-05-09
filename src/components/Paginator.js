@@ -50,7 +50,18 @@ function Paginator() {
       <div className='paginator'>
         <h1>lijst voor uncinc</h1>
         {renderItems(items)}
-        <p>Pagina: {currentPage}</p>
+        <ul className='navigator'>
+          <li>
+            <button className='previousBtn'>Previous</button>
+          </li>
+          <li>
+            {" "}
+            <p>Pagina: {currentPage}</p>
+          </li>
+          <li>
+            <button className='nextBtn'>Next</button>
+          </li>
+        </ul>
         <ul className='paginanummers'>{renderPageNumbers}</ul>
       </div>
     </>

@@ -19,12 +19,6 @@
   margin-bottom: 40px;
 }
 
-.paginator p {
-  position: absolute;
-  left: 33px;
-  bottom: 70px;
-}
-
 .todoLijst {
   width: 90%;
   margin: 25px auto;
@@ -59,5 +53,27 @@
   padding: 10px;
   margin: 0 2px;
   border-radius: 2px;
+  cursor: pointer;
+}
+
+.navigator {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navigator li {
+  margin: auto;
+}
+
+.navigator button {
+  border: 1px solid #dbdbdb;
+  background: linear-gradient(
+    160deg,
+    rgb(235 235 235) 42%,
+    rgb(214 214 214) 100%
+  );
+  width: 80px;
+  padding: 10px;
   cursor: pointer;
 }
