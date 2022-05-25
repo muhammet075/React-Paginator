@@ -26,7 +26,7 @@ De data die ik in de pagnator heb gebruikt is afkomstig van<br/> https://jsonpla
 2. Navigeer naar het project<br/>
 
 ```
-  cd uncinc-react-assessment
+  cd react-paginator
 ```
 
 3. Installeer NPM<br/>
