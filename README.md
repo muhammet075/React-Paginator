@@ -20,7 +20,7 @@ De data die ik in de pagnator heb gebruikt is afkomstig van<br/> https://jsonpla
 1. Clone de repository<br/>
 
 ```
-  git clone https://github.com/muhammet075/uncinc-react-assessment
+  git clone https://github.com/muhammet075/react-paginator
 ```
 
 2. Navigeer naar het project<br/>
